@@ -2,16 +2,16 @@ import hashlib
 
 
 def getHash(fileName):
-    if fileName == 'elasticsearch-5.5.1.deb':
-        return 'd6beceeb93ade6c3bc18b76a7f0e365dd95f6f52'
-    elif fileName == 'kibana-5.5.1-linux-x86_64.tar.gz':
-        return '6dba24c876841fdf116a413c843f09d3e98b4002'
-    elif fileName == 'kibana-5.5.1-linux-x86.tar.gz':
+    if fileName == 'elasticsearch-6.3.2.deb':
+        return 'A53A77652AAA85FA04F1D382D3391E921A7E9A6A'
+    elif fileName == 'kibana-6.3.2-linux-x86_64.tar.gz':
+        return '34EE24FEC22FA00A349A1FD1CDA3855B3432A08A'
+    elif fileName == 'kibana-6.3.2-linux-x86.tar.gz':
         return '47d7707b1b8feb490276fd69b597d27af610d28b'
-    elif fileName == 'logstash-5.5.1.deb':
-        return '88fbe43065cfaa6b13374f8f4a69f871b7110208'
-    elif fileName == 'bro-2.5.1.tar.gz':
-        return '9c133dd3a075be1084f9bf53d79c42ddcf23633c'
+    elif fileName == 'logstash-6.3.2.deb':
+        return 'B4BB7B6F4041634B6A3FED551DB3ED260863D608'
+    elif fileName == 'bro-2.5.4.tar.gz':
+        return 'DF170B6626F43753B610C0A8DE8D085DEE4EE0B4'
     return ''
 
 def checkHash(fileName):
