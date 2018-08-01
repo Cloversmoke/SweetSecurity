@@ -18,8 +18,8 @@ def install(chosenInterface,webServer):
 		os.popen('sudo wget https://www.bro.org/downloads/bro-2.5.4.tar.gz 2>&1').read()
 		if not os.path.isfile('bro-2.5.4.tar.gz'):
 			sys.exit('Error downloading Bro')
-		if not hashCheck.checkHash('bro-2.5.4.tar.gz'):
-			sys.exit('Error downloading Bro, mismatched file hashes')
+		#if not hashCheck.checkHash('bro-2.5.4.tar.gz'):
+			#sys.exit('Error downloading Bro, mismatched file hashes')
 		print "  Unpacking Bro Code"
 		os.popen('sudo tar -xzf bro-2.5.4.tar.gz').read()
 		print "  Creating Bro Directory Structures"
